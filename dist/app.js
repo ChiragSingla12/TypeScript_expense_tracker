@@ -11,9 +11,6 @@ const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 app.use(todos_1.default);
 app.listen(3000);
-
-
-
 // "use strict";
 // console.log(add(1,6));
 // to get the below bugs during dev, thats ts in a nutshell
